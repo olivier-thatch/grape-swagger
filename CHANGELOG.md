@@ -1,4 +1,4 @@
-### Next
+### 2.1.3 (2025-11-21)
 
 #### Features
 
@@ -7,14 +7,12 @@
 * [#953](https://github.com/ruby-grape/grape-swagger/pull/953): Added `super_diff` - [@numbata](https://github.com/numbata).
 * [#951](https://github.com/ruby-grape/grape-swagger/pull/951): Use `x-example` for non-body parameters - [@olivier-thatch](https://github.com/olivier-thatch).
 * [#963](https://github.com/ruby-grape/grape-swagger/pull/963): Allow empty model definitions for swagger 2.0 - [@numbata](https://github.com/numbata).
-* Your contribution here.
 
 #### Fixes
 
 * [#966](https://github.com/ruby-grape/grape-swagger/pull/966): Grape 3.0 compatibility - [@numbata](https://github.com/numbata).
 * [#954](https://github.com/ruby-grape/grape-swagger/pull/954): Ruby 3.5 compatibility: add cgi gem, drop runtime `rack‑test` - [@numbata](https://github.com/numbata).
 * [#948](https://github.com/ruby-grape/grape-swagger/pull/948): Grape 2.3.0 and Ruby 3.5 compatibility - [@numbata](https://github.com/numbata).
-* Your contribution here.
 
 ### 2.1.2 (2025-01-07)
 

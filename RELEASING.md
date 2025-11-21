@@ -16,7 +16,7 @@ Check that the last build succeeded in [Travis CI](https://travis-ci.org/ruby-gr
 Change "Next" in [CHANGELOG.md](CHANGELOG.md) to the current date.
 
 ```
-### 0.7.2 (February 6, 2014)
+### 2.2.0 (2025-11-21)
 ```
 
 Remove the lines with "Your contribution here.", since there will be no more contributions to this release.
@@ -25,7 +25,7 @@ Commit your changes.
 
 ```
 git add CHANGELOG.md lib/grape-swagger/version.rb
-git commit -m "Preparing for release, 0.7.2."
+git commit -m "Preparing for release, 2.2.0."
 git push origin master
 ```
 
@@ -34,10 +34,10 @@ Release.
 ```
 $ rake release
 
-grape-swagger 0.7.2 built to pkg/grape-swagger-0.7.2.gem.
-Tagged v0.7.2.
+grape-swagger 2.2.0 built to pkg/grape-swagger-2.2.0.gem.
+Tagged v2.2.0.
 Pushed git commits and tags.
-Pushed grape-swagger 0.7.2 to rubygems.org.
+Pushed grape-swagger 2.2.0 to rubygems.org.
 ```
 
 ### Prepare for the Next Version
@@ -47,7 +47,7 @@ Increment the minor version, the third number, modify [lib/grape-swagger/version
 Add the next release to [CHANGELOG.md](CHANGELOG.md).
 
 ```
-### 0.7.3 (Next)
+### 2.2.1 (Next)
 
 #### Features
 
@@ -62,7 +62,7 @@ Commit your changes.
 
 ```
 git add CHANGELOG.md lib/grape-swagger/version.rb
-git commit -m "Preparing for next developer iteration, 0.7.3."
+git commit -m "Preparing for next developer iteration, 2.2.1."
 git push origin master
 ```
 
@@ -71,7 +71,7 @@ git push origin master
 Make an announcement on the [ruby-grape@googlegroups.com](mailto:ruby-grape@googlegroups.com) mailing list. The general format is as follows.
 
 ```
-Grape-Swagger 0.7.2 has been released.
+Grape-Swagger 2.2.0 has been released.
 
 There were 8 contributors to this release, not counting documentation.
 
